@@ -3,11 +3,20 @@
 require 'vendor/autoload.php';
 
 $obj = new \App\Models\User();
+$db_conn = new \App\Database();
+?>
 
-echo $obj->getUserName() . "<br><br>";
-echo $obj->get() . "<br><br>";
-echo $obj->getUser() . "<br><br>";
-echo $obj->getStaff() . "<br><br>";
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home | RAW PHP (OOP)</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+
+</body>
+</html>
 
 
 
